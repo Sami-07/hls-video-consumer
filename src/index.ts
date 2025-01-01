@@ -68,7 +68,7 @@ async function main() {
                         },
                         overrides: {
                             containerOverrides: [{
-                                name: "video-transcoding-service",
+                                name: "video-transcoding-container",
                                 environment: [{
                                     name: "BUCKET_NAME",
                                     value: bucket.name
